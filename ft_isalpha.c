@@ -6,20 +6,21 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/29 16:20:22 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/09/29 19:44:09 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/09/30 15:55:14 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-#include <ctype.h>
-#include <stdio.h>
+// #include <ctype.h>
+// #include <stdio.h>
+#include "libft.h"
 
-int ft_isalpha(int c)
+int	ft_isalpha(int c)
 {
-	if ((c >= 65 && c <= 90) || (c >= 97 && c<= 122))
+	if ((c >= 65 && c <= 90) || (c >= 97 && c <= 122))
 	{
-		return(1);
+		return (1);
 	}
-	return(0);
+	return (0);
 }
 // int main(void)
 // {
