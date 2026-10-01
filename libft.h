@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/30 13:51:21 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/09/30 19:10:16 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/01 15:14:05 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,6 +27,8 @@ int	ft_isalnum(int c);
 int	ft_isascii(int c);
 int ft_isprint(int c);
 size_t	ft_strlen(const char *s);
+int ft_toupper(int c);
+int ft_tolower(int c);
 
 
 #endif
