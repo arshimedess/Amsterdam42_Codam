@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/07 14:59:20 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/07 16:47:44 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/07 17:05:44 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -37,7 +37,7 @@ int main(void)
 	
 	char	desti2[] = "somehting in here";
 	char	sourc2[] = "bring";
-	printf("org: the return value is %zu and the dest is now::: %s", strlcpy(desti2, sourc2, 18), desti2);
+	printf("org : the return value is %zu and the dest is now::: %s", strlcpy(desti2, sourc2, 18), desti2);
 	return (0);
 }
 // size here is the size of the whole dst box	
