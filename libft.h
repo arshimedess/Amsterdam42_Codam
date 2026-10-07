@@ -6,13 +6,13 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/30 13:51:21 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/07 18:56:09 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/07 21:01:46 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 // Header guard: prevents duplicate inclusion
-# ifndef LIBFT
-# define LIBFT
+#ifndef LIBFT_H
+# define LIBFT_H
 
 // standard or user-defined headers, angle brackets or double quotes
 # include <ctype.h>
@@ -37,5 +37,6 @@ void	*ft_memchr(const void *s, int c, size_t n);
 int		ft_memcmp(const void *s1, const void *s2, size_t n);
 size_t	ft_strlcpy(char *dst, const char *src, size_t size);
 size_t	ft_strlcat(char *dst, const char *src, size_t size);
+char	*ft_strchr(const char *s, int c);
 
 #endif
