@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/30 17:00:46 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/01 16:32:05 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/07 16:10:23 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -26,19 +26,19 @@ size_t	ft_strlen(const char *s)
 // in the function:	
 // to avoid any compiler warning about mixed signed and unsigned numbers
 
-int main(void)
-{
-	char str [] = "something";
+// int main(void)
+// {
+// 	char str [] = "something";
 
-	printf("my function:%zu\n", ft_strlen(str));
-	// or the same way of writing this ft_strlen(&str[0]);
+// 	printf("my function:%zu\n", ft_strlen(str));
+// 	// or the same way of writing this ft_strlen(&str[0]);
 
-	/* The name of an array automatically converts
-	into a pointer to its very first element when you pass it to a function. */
+// 	/* The name of an array automatically converts
+// 	into a pointer to its very first element when you pass it to a function. */
 
-	printf("%zu\n", strlen(str));
+// 	printf("%zu\n", strlen(str));
 
-	// just to see difference with sizeof and its result for char arrays
-	printf("%zu\n", sizeof(str));
-	return (0);
-}
+// 	// just to see difference with sizeof and its result for char arrays
+// 	printf("%zu\n", sizeof(str));
+// 	return (0);
+// }
