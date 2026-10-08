@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/07 20:01:25 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/07 21:02:13 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/08 16:08:48 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,22 +14,18 @@
 
 char	*ft_strchr(const char *s, int c)
 {
-	int		i;
+	size_t	i;
 	char	*p;
 
 	p = (char *)s;
 	i = 0;
-	while (s[i] != '\0' && (char)c != '\0')
+	if ((char)c == '\0')
+		return (p + ft_strlen(s));
+	while (s[i] != '\0')
 	{
 		if (p[i] == (char)c)
-		{
 			return (p + i);
-		}
 		i++;
-	}
-	if ((char)c == '\0')
-	{
-		return (p + ft_strlen(s));
 	}
 	return (NULL);
 }
