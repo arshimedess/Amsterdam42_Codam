@@ -27,6 +27,11 @@ Change `[ ]` to `[x]` when a function is TESTED.
 - [ ] ft_memcmp     🟡
 - [ ] ft_strnstr    🟡
 - [ ] ft_atoi       🟡
+
+-------------------------------------
+Learning malloc & free
+-------------------------------------
+
 - [ ] ft_calloc     
 - [ ] ft_strdup     
 

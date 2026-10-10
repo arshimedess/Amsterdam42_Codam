@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/30 13:51:21 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/10 13:53:09 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/10 15:11:22 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -20,6 +20,7 @@
 # include <string.h>
 # include <bsd/string.h>
 # include <stdlib.h>
+# include <stdint.h>
 
 // Function declaration (prototype)
 int		ft_isalpha(int c);
@@ -41,5 +42,7 @@ size_t	ft_strlcat(char *dst, const char *src, size_t size);
 char	*ft_strchr(const char *s, int c);
 char	*ft_strrchr(const char *s, int c);
 int		ft_strncmp(const char *s1, const char *s2, size_t n);
+char	*ft_strnstr(const char *big, const char *little, size_t len);
+int		ft_atoi(const char *str);
 
 #endif

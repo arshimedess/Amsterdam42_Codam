@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/01 19:56:08 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/06 18:04:16 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/10 15:43:54 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,16 +27,16 @@ void	ft_bzero(void *s, size_t n)
 	}
 	return ;
 }
-/* int main(void)
-{
-	char str[] = "something is in something due to something";
-	char str2[] = "something is in something due to something";
+// int main(void)
+// {
+// 	char str[] = "something is in something due to something";
+// 	char str2[] = "something is in something due to something";
 
-	ft_bzero(str, 2);
-	bzero(str2, 2);
+// 	ft_bzero(str, 2);
+// 	bzero(str2, 2);
 
-	printf("\nafter ft_bzero(): %s\n", str);
-	printf("\nafter bzero(): %s\n", str2);
+// 	printf("\nafter ft_bzero(): %s\n", str);
+// 	printf("\nafter bzero(): %s\n", str2);
 
-	return (0);
-} */
+// 	return (0);
+// }

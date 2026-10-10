@@ -1,18 +1,18 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        :::      ::::::::   */
-/*   ft_atoi.c                                          :+:      :+:    :+:   */
-/*                                                    +:+ +:+         +:+     */
-/*   By: arshimedess <arshimedess@student.42.fr>    +#+  +:+       +#+        */
-/*                                                +#+#+#+#+#+   +#+           */
-/*   Created: 2026/10/10 10:38:41 by arshimedess       #+#    #+#             */
-/*   Updated: 2026/10/10 13:19:11 by arshimedess      ###   ########.fr       */
+/*                                                        ::::::::            */
+/*   ft_atoi.c                                          :+:    :+:            */
+/*                                                     +:+                    */
+/*   By: arshimedess <arshimedess@student.42.fr>      +#+                     */
+/*                                                   +#+                      */
+/*   Created: 2026/10/10 10:38:41 by arshimedess   #+#    #+#                 */
+/*   Updated: 2026/10/10 15:43:45 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-int ft_atoi(const char *str)
+int	ft_atoi(const char *str)
 {
 	int	i;
 	int	num;
@@ -38,11 +38,11 @@ int ft_atoi(const char *str)
 	}
 	return (sign * num);
 }
-int main()
-{
-	// char mystring[] = " ----++-12345ab567";
-    char mystring[] = "  --42ab";
-	printf("my func:::::::%d\n", ft_atoi(mystring));
-    printf("original func:%d\n", atoi(mystring));
-	return(0);
-}
+// int main()
+// {
+// 	// char mystring[] = " ----++-12345ab567";
+//     char mystring[] = "  --42ab";
+// 	printf("my func:::::::%d\n", ft_atoi(mystring));
+//     printf("original func:%d\n", atoi(mystring));
+// 	return(0);
+// }

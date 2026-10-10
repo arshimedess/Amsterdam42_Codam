@@ -6,13 +6,13 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/08 17:26:32 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/08 20:12:52 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/10 14:25:58 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "libft.h"
 
-char *ft_strnstr(const char *big, const char *little, size_t len)
+char	*ft_strnstr(const char *big, const char *little, size_t len)
 {
 	size_t		i;
 
@@ -27,11 +27,11 @@ char *ft_strnstr(const char *big, const char *little, size_t len)
 	}
 	return (NULL);
 }
-int main(void)
-{
-	char str1[] = "wat wha w whatever";
-	char str2[] = "what";
-	printf("result of mine::::::%s\n", ft_strnstr(str1, str2, 14));
-	printf("result as it should:%s\n", strnstr(str1, str2, 14));
-	return (0);
-}
+// int main(void)
+// {
+// 	char str1[] = "wat wha w whatever";
+// 	char str2[] = "what";
+// 	printf("result of mine::::::%s\n", ft_strnstr(str1, str2, 14));
+// 	printf("result as it should:%s\n", strnstr(str1, str2, 14));
+// 	return (0);
+// }
