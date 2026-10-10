@@ -6,7 +6,7 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/09/30 13:51:21 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/08 17:24:55 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/10 13:53:09 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,6 +19,7 @@
 # include <stdio.h>
 # include <string.h>
 # include <bsd/string.h>
+# include <stdlib.h>
 
 // Function declaration (prototype)
 int		ft_isalpha(int c);
