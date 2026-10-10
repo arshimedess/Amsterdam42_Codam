@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        ::::::::            */
-/*   libft.h                                            :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2026/09/30 13:51:21 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/10 19:16:34 by ahossein      ########   odam.nl         */
+/*                                                        :::      ::::::::   */
+/*   libft.h                                            :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: arshimedess <arshimedess@student.42.fr>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/09/30 13:51:21 by ahossein          #+#    #+#             */
+/*   Updated: 2026/10/10 21:03:30 by arshimedess      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -18,7 +18,6 @@
 # include <ctype.h>
 # include <stdio.h>
 # include <string.h>
-# include <bsd/string.h>
 # include <stdlib.h>
 # include <stdint.h>
 

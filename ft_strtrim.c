@@ -1,12 +1,12 @@
 /* ************************************************************************** */
 /*                                                                            */
-/*                                                        ::::::::            */
-/*   ft_strtrim.c                                       :+:    :+:            */
-/*                                                     +:+                    */
-/*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
-/*                                                   +#+                      */
-/*   Created: 2026/10/10 19:17:42 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/10 20:08:45 by ahossein      ########   odam.nl         */
+/*                                                        :::      ::::::::   */
+/*   ft_strtrim.c                                       :+:      :+:    :+:   */
+/*                                                    +:+ +:+         +:+     */
+/*   By: arshimedess <arshimedess@student.42.fr>    +#+  +:+       +#+        */
+/*                                                +#+#+#+#+#+   +#+           */
+/*   Created: 2026/10/10 19:17:42 by ahossein          #+#    #+#             */
+/*   Updated: 2026/10/10 23:06:28 by arshimedess      ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -14,5 +14,29 @@
 
 char *ft_strtrim(char const *s1, char const *set)
 {
-	ss
+	char *sub;
+	size_t	s1_len;
+	size_t i;
+
+	if (s1 == NULL)
+		return (NULL);
+	s1_len = (ft_strlen(s1));
+	i  = 0;
+	while (s1_len > i &&(ft_strchr(set, s1[s1_len - 1])))
+	{
+		s1_len--;
+	}
+	while (i < s1_len &&(ft_strchr(set, s1[i])))
+	{	
+		i++;
+	}
+	sub = ft_substr(s1, i, s1_len - i);
+	return(sub);
+}
+int main(void)
+{
+	char string[] = {'a', 'b', 'c', 'd', 'e', '\0'};
+	char set[] = {'b', 'e', '\0'};
+	printf("trimmed screen is:::%s\n", ft_strtrim(string, set));
+	return(0);
 }
