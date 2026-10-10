@@ -6,15 +6,24 @@
 /*   By: ahossein <ahossein@student.codam.nl>         +#+                     */
 /*                                                   +#+                      */
 /*   Created: 2026/10/10 14:29:44 by ahossein      #+#    #+#                 */
-/*   Updated: 2026/10/10 14:40:54 by ahossein      ########   odam.nl         */
+/*   Updated: 2026/10/10 16:29:18 by ahossein      ########   odam.nl         */
 /*                                                                            */
 /* ************************************************************************** */
 
-strdup = measure + malloc + copy
+// strdup = measure + malloc + copy
+// string duplicate
 
 #include "libft.h"
 
-char *strdup(const char *s)
+char	*ft_strdup(const char *s)
 {
-	
+	char	*dup;
+	size_t	dup_len;
+
+	dup_len = ft_strlen(s);
+	dup = malloc(dup_len + 1);
+	if (dup == NULL)
+		return (NULL);
+	ft_strlcpy(dup, s, dup_len + 1);
+	return (dup);
 }

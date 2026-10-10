@@ -32,8 +32,8 @@ Change `[ ]` to `[x]` when a function is TESTED.
 Learning malloc & free
 -------------------------------------
 
-- [ ] ft_calloc     
-- [ ] ft_strdup     
+- [ ] ft_calloc     🟡
+- [ ] ft_strdup     🟡
 
 ## Part 2: Additional functions (11)
 
