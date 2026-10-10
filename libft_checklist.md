@@ -37,8 +37,8 @@ Learning malloc & free
 
 ## Part 2: Additional functions (11)
 
-- [ ] ft_substr
-- [ ] ft_strjoin
+- [ ] ft_substr		🟡
+- [ ] ft_strjoin	🟡
 - [ ] ft_strtrim
 - [ ] ft_split
 - [ ] ft_itoa
